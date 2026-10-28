@@ -5,12 +5,13 @@ import sub from './sub.js';
 
 /* =========== Client ========== */
 const client = new Client({
-  phoneNumber: '20123456789', // Bot number
+  phoneNumber: '201042564825', // Bot number
   prefix: [".", "/", "!"],
   fromMe: false, 
   owners: [
-  // Owner 1
-    { name: "VA", lid: "247579682029763@lid", jid: "972569311531@s.whatsapp.net" },
+  // Owner DAWSHA
+    
+    { name: "VA", lid: "201042564825", jid: "972569311531@s.whatsapp.net" },
   // Owner 2
     { name: "emam", lid: "221307316789354@lid", jid: "201144480436@s.whatsapp.net" },
   // Owner 3
@@ -33,7 +34,7 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "♡ 𝙋𝙊𝙈𝙉𝙄 🎪 〈", 
+  nameBot: "♡ DAWSHA KING🎪 〈", 
   nameChannel: "𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️", 
   idChannel: "120363225356834044@newsletter",
   urls: {
